@@ -5,8 +5,8 @@ libpcap. Its nature is proof-of-concept only. Use dnsspoof instead.
 
 The nature of the hosts file for this project looks like this:
 
-example.txt:
-google.de|1.2.3.4
+example:
+ google.de|1.2.3.4
 
 This will ensure that a *response* from the real dns will be copied and 
 spoofed with these entries. This means you need in your setup a valid 
