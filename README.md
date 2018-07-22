@@ -11,7 +11,7 @@ example:
 This will ensure that a *response* from the real dns will be copied and 
 spoofed with these entries (not classic dns spoofing, since *here* the 
 spoofed response will always be slower). This means you need in your 
-setup a valid MITM position to attack the target as well as a iptables rule to drop 
+setup a valid MITM position to attack the target as well as an iptables rule to drop 
 the correct packets.
 
 ## Compile:
