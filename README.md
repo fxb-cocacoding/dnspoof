@@ -16,8 +16,7 @@ the correct packets.
 
 ## Compile:
 
-`cd Debug
-make all`
+`cd Debug && make all`
 
 ## Usage:
 run dnspoof with privileges to use raw sockets. Usually this will be 
